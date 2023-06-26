@@ -394,6 +394,7 @@ button {
 }
 .rating__star {
   color: #F1EBDB;
+  white-space: nowrap;
 }
 .rating__star:not(:last-of-type) {
   margin-right: 3px;
@@ -643,6 +644,13 @@ button {
     font-size: 13px;
   }
 }
+
+@media (max-width: 400px) {
+  .chat__avatar {
+    display: none;
+  }
+}
+
 @media (max-width: 533px) {
   .testimonials .slick-dotted.slick-slider {
     margin-bottom: 23px;
