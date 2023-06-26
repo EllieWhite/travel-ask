@@ -439,6 +439,11 @@ button {
 .review__description {
   font-family: "KievitProLight";
   margin-top: 19px;
+      -webkit-line-clamp: 5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    display: -webkit-box;
+}
 }
 @media (max-width: 533px) {
   .review__description {
