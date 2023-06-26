@@ -245,42 +245,42 @@
 /* stylelint-disable */ /* stylelint-disable */ /* stylelint-disable value-keyword-case */
 @font-face {
   font-family: "KievitProBold";
-  src: url("./fonts/KievitPro-Bold.woff2") format("woff2");
+  src: url("../fonts/../fonts/KievitPro-Bold.woff2") format("woff2");
   font-weight: 700;
   font-display: swap;
   font-style: normal;
 }
 @font-face {
   font-family: "KievitProMedium";
-  src: url("./fonts/KievitPro-Medium.woff2") format("woff2");
+  src: url("../fonts/../fonts/KievitPro-Medium.woff2") format("woff2");
   font-weight: 500;
   font-display: swap;
   font-style: normal;
 }
 @font-face {
   font-family: "KievitProRegular";
-  src: url("./fonts/KievitPro-Regular.woff2") format("woff2");
+  src: url("../fonts/../fonts/KievitPro-Regular.woff2") format("woff2");
   font-weight: 400;
   font-display: swap;
   font-style: normal;
 }
 @font-face {
   font-family: "KievitProLight";
-  src: url("./fonts/KievitPro-Light.woff2") format("woff2");
+  src: url("../fonts/../fonts/KievitPro-Light.woff2") format("woff2");
   font-weight: 300;
   font-display: swap;
   font-style: normal;
 }
 @font-face {
   font-family: "RobotoMedium";
-  src: url("./fonts/Roboto-Medium.woff2") format("woff2");
+  src: url("../fonts/../fonts/Roboto-Medium.woff2") format("woff2");
   font-weight: 500;
   font-display: swap;
   font-style: normal;
 }
 @font-face {
   font-family: "RobotoRegular";
-  src: url("./fonts/Roboto-Regular.woff2") format("woff2");
+  src: url("../fonts/../fonts/Roboto-Regular.woff2") format("woff2");
   font-weight: 400;
   font-display: swap;
   font-style: normal;
