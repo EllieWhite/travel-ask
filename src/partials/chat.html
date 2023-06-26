@@ -1,0 +1,73 @@
+<section class="section section--chat">
+    <div class="chat-box">
+        <h3 class="section-title">Чат с пользователем</h3>
+        <div class="chat">
+            <div class="chat__head">
+                <div class="chat__avatar">
+                    <picture>
+                        <img class="chat__image" src="./img/avatar/avatar-2@1x.png" alt="" srcset="./img/avatar/avatar-2@1x.png 1x, ./img/avatar/avatar-2@2x.png 2x">
+                    </picture>
+                </div>
+                <div class="">
+                    <p class="chat__name">Наталия Полянская</p>
+                    <p class="chat__vocation">
+                        <svg  width="8" height="10" viewBox="0 0 8 10" fill="none"><use xlink:href="./img/svg/icon.svg#flag"></use></svg>
+                        Гид по Баварии, фотограф
+                    </p>
+                </div>
+                @include('./rating.html')
+            </div>
+            <div class="chat__body list" id="chatWithUser">
+                
+            </div>
+            <div class="chat__footer">
+                <div class="chat__avatar">
+                    <picture>
+                        <img class="chat__image" src="./img/avatar/avatar-1@1x.png" alt="" srcset="./img/avatar/avatar-1@1x.png 1x, ./img/avatar/avatar-1@2x.png 2x">
+                    </picture>
+                </div>
+                <div class="chat__submit">
+                    <textarea class="chat1 chat__textarea" placeholder="Напишите сообщение..." rows="1" name="textarea"></textarea>
+                    <button class="button-reset button-submit button1">
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><use xlink:href="./img/svg/icon.svg#submit"></use></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="chat-box">
+        <h3 class="section-title">Чат с администратором</h3>
+        <div class="chat">
+            <div class="chat__head">
+                <div class="chat__avatar">
+                    <picture>
+                        <img class="chat__image" src="./img/avatar/avatar-1@1x.png" alt="" srcset="./img/avatar/avatar-1@1x.png 1x, ./img/avatar/avatar-1@2x.png 2x">
+                    </picture>
+                </div>
+                <div class="">
+                    <p class="chat__name">Администратор</p>
+                    <p class="chat__vocation">
+                        <svg  width="8" height="10" viewBox="0 0 8 10" fill="none"><use xlink:href="./img/svg/icon.svg#flag"></use></svg>
+                        TravelAsk
+                    </p>
+                </div>
+            </div>
+            <div class="chat__body list" id="chatWithAdmin">
+                
+            </div>
+            <div class="chat__footer">
+                <div class="chat__avatar">
+                    <picture>
+                        <img class="chat__image" src="./img/avatar/avatar-2@1x.png" alt="" srcset="./img/avatar/avatar-2@1x.png 1x, ./img/avatar/avatar-2@2x.png 2x">
+                    </picture>
+                </div>
+                <div class="chat__submit">
+                    <textarea class="chat2 chat__textarea" placeholder="Напишите сообщение..." rows="1" name="textarea"></textarea>
+                    <button class="button-reset button-submit button2">
+                        <svg width="22" height="22" viewBox="0 0 22 22" fill="none"><use xlink:href="./img/svg/icon.svg#submit"></use></svg>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

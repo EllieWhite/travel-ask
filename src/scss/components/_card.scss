@@ -1,0 +1,84 @@
+.card {
+    background-color: $base-color;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 26px 12px 23px 19px;
+    width: 300px;
+    height: 410px;
+    display: flex !important;
+    flex-direction: column;
+    @media (max-width: 533px)  {
+        padding: 15px;
+        height: 370px;
+    }
+
+    &__image {
+        object-fit: cover;
+    }
+
+    &__person {
+        display: flex;
+        align-items: center;
+    }
+
+    &__name {
+        font-size: 15px;
+    }
+
+    &__content {
+        margin-top: 28px;
+        margin-bottom: auto;
+    }
+
+    &__avatar {
+        margin-right: 10px;
+        border-radius: 50%;
+        flex-shrink: 0;
+        width: 30px;
+        height: 30px;
+    }
+
+    &__description {
+        margin-top: 12px;
+        display: -webkit-box;
+        -webkit-line-clamp: 7;
+        -webkit-box-orient: vertical;  
+        overflow: hidden;
+        font-family: "RobotoRegular";
+        font-size: 15px;
+        line-height: 1.66;
+        @media (max-width: 533px)  {
+            margin-top: 0.5em;
+            font-size: 13px;
+        }
+    }
+
+    &__actions {
+        margin-top: 26px;
+        display: flex;
+        @media (max-width: 533px)  {
+            margin-top: 12px;
+        }
+
+        & span {
+            color: #9D9D9D;
+            line-height: 2.27;
+            font-size: 11px;
+            font-family: "RobotoRegular";
+            position: relative;
+
+            &:not(:last-of-type) {
+                margin-right: 20px;
+
+                &:before {
+                    content: "•";
+                    font-size: 11px;
+                    position: absolute;
+                    right: -11px;
+                    top: 0;
+                }
+            }
+
+        }
+    }
+}

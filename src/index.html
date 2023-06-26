@@ -1,20 +1,25 @@
 <!DOCTYPE html>
-<html lang="ru" class="page">
+<html lang="ru">
 
-@include('partials/head.html')
+  @include('partials/head.html')
 
-<body class="page__body">
-  <div class="site-container">
+  <body>
     @include('partials/header.html')
     <main class="main">
-      <picture>
-        <source srcset="img/cover.webp" type="image/webp">
-        <img loading="lazy" src="img/cover.jpg" class="image" width="300" height="300" alt="Обложка канала MaxGraph">
-      </picture>
+      <div class="box">
+        @include('partials/review.html')
+        @include('partials/testimonials.html')
+        @include('partials/chat.html')
+
+      </div>
     </main>
     @include('partials/footer.html')
-    <!-- @include('html/h1.html') пример include -->
-  </div>
-</body>
+    
+
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/slick.min.js"></script>
+  <script type="text/javascript" src="js/fslightbox.js"></script>
+  <script src="js/main.js"></script>
+  </body>
 
 </html>

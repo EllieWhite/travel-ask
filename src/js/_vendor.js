@@ -1,1 +1,2 @@
-import './vendor/focus-visible.js';
+// import '.vendor/jquery.min';
+// import '.vendor/slick.min';

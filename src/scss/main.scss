@@ -1,16 +1,50 @@
-// базовые подключения
+@import "slick";
+@import "slick-theme";
 @import "vars";
 @import "mixins";
 @import "fonts";
 @import "settings";
-
-// подключения компонентов страницы
+@import "./components/buttons";
+@import "./components/rating";
 @import "./components/header";
+@import "./components/review";
+@import "./components/card";
+@import "./components/testimonials";
+@import "./components/gallery";
+@import "./components/chat";
 
-// тестовые стили, удалите их
-.page__body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: var(--vh);
+
+.section {
+  @media (max-width: 533px)  {
+    padding: 15px;
+  } 
+
+  &--light {
+    background-color: $main-color;
+  }
+
+  &--testimonials {
+    margin-top: 20px;
+  }
+
+  &--chat {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+}
+
+.section-title {
+  font-family:"KievitProBold";
+  font-size: 29px;
+  letter-spacing: 0.87px;
+  @media (max-width: 533px)  {
+    font-size: 22px;
+  } 
+
+}
+
+.like {
+  margin-left: auto;
 }

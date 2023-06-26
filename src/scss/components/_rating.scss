@@ -1,0 +1,14 @@
+.rating {
+    display: flex;
+    margin-left: auto;
+    &__star { 
+        color: #F1EBDB;
+        &:not(:last-of-type) {
+            margin-right: 3px;
+        }
+
+        & .is-active {
+            color: #F5A623;
+        }
+    }
+}
